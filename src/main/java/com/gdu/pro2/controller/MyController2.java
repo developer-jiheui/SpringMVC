@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class MyController2 {
 
   @RequestMapping(value="/board/list.do", method= RequestMethod.GET)
-    public String method(){
-      return "index2";
+    public void method(){
+
   }
 
 }
